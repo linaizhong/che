@@ -92,6 +92,6 @@ public class JsonRpcMessageReceiverTest {
 
     jsonRpcMessageReceiver.receive(ENDPOINT_ID, MESSAGE);
 
-    verify(requestProcessor).process(any());
+    verify(requestProcessor).process(any(), any());
   }
 }
