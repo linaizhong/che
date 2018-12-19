@@ -28,7 +28,6 @@
         <module>che-plugin-maven-generator-archetype</module>
         <module>che-plugin-maven-shared</module>
         <module>che-plugin-maven-ide</module>
-        <module>che-plugin-maven-server</module>
     </modules>
     <!-- skip tests on Windows -->
     <profiles>
